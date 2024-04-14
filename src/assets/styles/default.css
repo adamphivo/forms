@@ -1,0 +1,25 @@
+.form {
+  background-color: rgb(223, 228, 230);
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field .label {
+  color: black;
+  font-weight: 600;
+}
+
+.field .error {
+  color: rgb(241, 21, 21);
+}
+
+.field .description {
+  color: rgb(76, 97, 97);
+  font-size: 14px;
+}
